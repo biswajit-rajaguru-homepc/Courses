@@ -1,0 +1,150 @@
+$google-blue: #4285f4;
+
+a:link{
+    text-decoration:none;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+#header{
+
+    margin: 0px;
+
+ul{
+    overflow: hidden;
+    list-style: none inside "";
+    li {
+        float: right; 
+        margin: 5px;
+        text-align: center;
+        padding: 3px;
+        img {
+         height: 2vh;
+         object-fit:contain;
+     
+        }
+     
+     }
+}
+height: 10vh;
+#header-google-logo {
+    margin: 10px;
+    float: left;
+    img {
+    height: 3vh;
+    object-fit:contain;
+    }
+
+}
+
+} 
+
+#advanced-search-heading {
+    color: red;
+    font-size: larger;
+    margin: 3vw 0 2vw 3vw;
+
+}
+
+hr {
+    background-color: #e0e0e0;
+    height:1px;
+    border-width:0;
+    width: 100vw;
+    left:0vw;
+}
+
+#logo{
+height: 30vh;
+display: flex;
+justify-content: center;
+
+img{
+    width: 22vw;
+    padding-top: 14vh;
+}
+
+}
+
+#middle{
+    display:flex;
+    justify-content: center;
+    //flex-direction: column;
+    #middle-column {
+        display:flex;
+        flex-direction: column;
+    #bar {
+    display:flex;
+    flex-direction: row;
+    text-align: center;
+    border: 1px solid #c0c0c0;
+    border-radius: 4vh;
+    width:45vw;
+
+    #google-glass{
+        height: 2vh;
+        object-fit: contain;
+        margin: 15px 2px 13px 15px;
+    }
+
+    #google-mic {
+        height: 2vh;
+        object-fit: contain;
+        margin: 15px 15px 13px 2px;
+    }
+
+
+    #search-bar, #search-bar:active, #search-bar:focus {
+
+        border: none;// transparent;
+        //border: 1px solid black;
+        margin:15px 2px 15px 2px;
+        outline: none;
+        width: 40vw
+
+    }
+    }
+
+    #bar-buttons {
+        
+        #google-search, #i-am-feeling-lucky {
+
+            margin-top: 4vh;
+            margin-right:2px;
+            margin-left: 2px;
+            padding: 9px 15px;
+            font-size: 15px;
+            border: 1px solid transparent;
+            //outline: none;
+            background-color: #f6f6ff;
+            color: #505050;
+            
+
+        }
+
+        #google-search:hover, #i-am-feeling-lucky:hover {
+            border: 1px solid #c0c0c0;
+            border-radius: 3px;
+        }
+
+        #google-search:active, #i-am-feeling-lucky:active {
+            border: 1px solid $google-blue;
+            border-radius: 3px;
+        }
+
+
+        text-align: center;
+    }
+    }
+}
+
+
+#lower-half {
+
+}
+
+#footer {
+
+}

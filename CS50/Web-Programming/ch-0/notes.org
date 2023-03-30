@@ -1,0 +1,33 @@
+*Notes*
+1. Document Object Model === representation of the webpage as a document, with objects, which have properties and methods, 
+event handlers etc. it is heierachial tree of html element objects, 
+
+2. window is the global object. document is a subobject of the window object
+
+3. in JS console: evaluate wndow and document to see those objects
+
+4. console.clear()
+
+5. as window is the global object we can access its members wthout prepending window to the window variable name.
+
+6. we want the js to run after the dom has been created. we can do this by adding attribute "defer" in the script tag
+or addng our scrpt insde the DOMContentLoaded/load event handler of the window object. preferably load.
+
+7. Every thing that is defined with a tag like html head body various buttons, p etc are all elements in the dom,
+and we can access them by getElementById, querySelector etc.
+
+head,body,title etc which are unique in contrast to buttons, so they can be accessed by document.head and document.body.
+
+but for buttons etc where there can be multiple such elements, we have to call the getElementById and querySelector methodsof document object to get 
+ther handles. 
+
+querySelector uses css selectors to identify the set of elenents which are filtered by the selector or have that particular type
+
+document.all is an HTMLAllCollection=== array whose entries are the elements in js object forms. document.all[8].innerHTML += ">>>>"
+
+similarly document.body.children[3].innerHTML = "something"
+
+
+8. CSS-selectors is a complex that is made from simpler selecters. it is like a filter functon evealuated on all the 
+elements in a webpage. constructing one is also a sufficently creative exercise.
+

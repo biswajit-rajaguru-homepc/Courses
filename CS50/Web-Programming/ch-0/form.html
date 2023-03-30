@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        form>div{
+            margin: 30px;
+            padding: 20px;
+            border: 1px solid black;
+        }
+
+        div>div {
+            margin:5px;
+            padding:2px;
+        }
+    </style>
+</head>
+
+<body>
+    <form action="https://www.httpbin.org/anything" method="get" oninput="
+        x.value=parseInt(a.value) + parseInt(b.value)">
+        
+        
+        <div>
+        <div><label for="first-name">First Name:</label>
+        <input type="text" name="first-name" id="first-name" placeholder="John"></div>
+        <div><label for=""last-name">Last Name:</label>
+        <input type="text" name="last-name" id="last-name"></div>
+        </div>
+
+        <div>
+            <input type="radio" name="choice" id="choice1" value="1"> <label for="choice1">1</label>
+            <input type="radio" name="choice" id="choice2" value="2"> <label for="choice2">2</label>
+            <input type="radio" name="choice" id="choice3" value="3"> <label for="choice3">3</label>
+        </div>
+
+        <div>
+            <input type="checkbox" name="munu" id="munu" value="yes"> <label for="munu">Munu</label>
+            <input type="checkbox" name="minu" id="minu" value="yes"> <label for="minu">Minu</label>
+            <input type="checkbox" name="nana" id="nana" value="yes"> <label for="nana">Nana</label>
+            <input type="checkbox" name="bou" id="bou" value="yes"> <label for="bou">Bou</label>
+        </div>
+        
+        <div>
+            <label for="car">Car</label>
+            <select name="car" id="car" size="2">
+                <option value="BMW">BMW</option>
+                <option value="Mercedes" selected>Mercedes</option>
+                <option value="Audi">Audi</option>
+                <option value="Swift">Maruti Swift</option>
+            </select>
+        </div>
+
+        <div>
+            <label for="Truck">Truck</label>
+            <select name="truck" id="truck">
+                <option value="dodge-ram">Ram 2500</option>
+                <option value="f250">F250</option>
+                <option value="bolero" selected>Bolero</option>
+            </select>
+        </div>
+        
+        <div>
+            <fieldset>
+                <legend>Text Area</legend>
+            <textarea name="feedback" id="feedback" cols="30" rows="10" placeholder="please leave some feedback"></textarea>
+            <textarea name="feedback" id="feedback" cols="30" rows="10" placeholder="please leave some feedback"></textarea>
+            </fieldset>
+        </div>
+        
+        <div>
+            <label for="leader">The leader: </label>
+            <input list="names" id="leader" name="leader">
+            <datalist id="names">
+                <option value="Ram">Ram</option>
+                <option value="Shyam">Shyam</option>
+                <option value="Hari">Hari</option>
+                <option value="Govind">Govind</option>
+            </datalist>
+        </div>
+
+        <div>
+            
+            -100<input type="range" name="a" id="a" value="50" min="-100" max="200" step="10">200 + <input type="number" name="b" id="b" value="50">
+               = <output id="output" name="x"></output>
+        </div> 
+        
+        <div>
+            <input type="text" name="username" id="username" placeholder="username">
+            <input type="password" name="psswd" id="psswd" placeholder="password">
+        </div>
+        <div><input type="submit" value="Submit"></div>
+
+
+
+    </form>
+</body>
+</html>

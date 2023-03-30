@@ -1,0 +1,57 @@
+$color: blue;
+
+ul {
+    background-color: darken($color,40%);
+    color: lighten($color, 20%);
+    margin: 30px;
+    
+
+   li{ color: lighten($color,40%);
+    padding: 5px;
+    margin: 3px
+   }
+}
+
+ol {
+    background-color: darken($color,40%);
+    margin: 30px;
+    //padding: 20px;
+    li {
+    color: lighten($color, 40%);
+    padding: 5px;
+    margin: 3px
+    }
+}
+
+.c1 {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+%message {
+
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    font-size: larger;
+    border: 1px solid black;
+    padding: 20px;
+    margin: 10px;
+
+}
+
+.success {
+    @extend %message;
+    background-color: green;
+
+}
+
+.failure {
+    @extend %message;
+    background-color: red;
+
+}
+
+.ordinary {
+    @extend %message;
+    background-color: cornflowerblue;
+}

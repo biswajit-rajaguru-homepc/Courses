@@ -1,0 +1,48 @@
+ul {
+  background-color: #000033;
+  color: #6666ff;
+  margin: 30px;
+}
+ul li {
+  color: #ccccff;
+  padding: 5px;
+  margin: 3px;
+}
+
+ol {
+  background-color: #000033;
+  margin: 30px;
+}
+ol li {
+  color: #ccccff;
+  padding: 5px;
+  margin: 3px;
+}
+
+.c1 {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.ordinary, .failure, .success {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bold;
+  font-size: larger;
+  border: 1px solid black;
+  padding: 20px;
+  margin: 10px;
+}
+
+.success {
+  background-color: green;
+}
+
+.failure {
+  background-color: red;
+}
+
+.ordinary {
+  background-color: cornflowerblue;
+}
+
+/*# sourceMappingURL=sass-demo.css.map */

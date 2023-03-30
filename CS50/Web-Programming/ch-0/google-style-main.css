@@ -1,0 +1,114 @@
+a:link {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+#header {
+  margin: 0px;
+  height: 10vh;
+}
+#header ul {
+  overflow: hidden;
+  list-style: none inside "";
+}
+#header ul li {
+  float: right;
+  margin: 5px;
+  text-align: center;
+  padding: 3px;
+}
+#header ul li img {
+  height: 2vh;
+  object-fit: contain;
+}
+#header #header-google-logo {
+  margin: 10px;
+  float: left;
+}
+#header #header-google-logo img {
+  height: 3vh;
+  object-fit: contain;
+}
+
+#advanced-search-heading {
+  color: red;
+  font-size: larger;
+  margin: 3vw 0 2vw 3vw;
+}
+
+hr {
+  background-color: #e0e0e0;
+  height: 1px;
+  border-width: 0;
+  width: 100vw;
+  left: 0vw;
+}
+
+#logo {
+  height: 30vh;
+  display: flex;
+  justify-content: center;
+}
+#logo img {
+  width: 22vw;
+  padding-top: 14vh;
+}
+
+#middle {
+  display: flex;
+  justify-content: center;
+}
+#middle #middle-column {
+  display: flex;
+  flex-direction: column;
+}
+#middle #middle-column #bar {
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  border: 1px solid #c0c0c0;
+  border-radius: 4vh;
+  width: 45vw;
+}
+#middle #middle-column #bar #google-glass {
+  height: 2vh;
+  object-fit: contain;
+  margin: 15px 2px 13px 15px;
+}
+#middle #middle-column #bar #google-mic {
+  height: 2vh;
+  object-fit: contain;
+  margin: 15px 15px 13px 2px;
+}
+#middle #middle-column #bar #search-bar, #middle #middle-column #bar #search-bar:active, #middle #middle-column #bar #search-bar:focus {
+  border: none;
+  margin: 15px 2px 15px 2px;
+  outline: none;
+  width: 40vw;
+}
+#middle #middle-column #bar-buttons {
+  text-align: center;
+}
+#middle #middle-column #bar-buttons #google-search, #middle #middle-column #bar-buttons #i-am-feeling-lucky {
+  margin-top: 4vh;
+  margin-right: 2px;
+  margin-left: 2px;
+  padding: 9px 15px;
+  font-size: 15px;
+  border: 1px solid transparent;
+  background-color: #f6f6ff;
+  color: #505050;
+}
+#middle #middle-column #bar-buttons #google-search:hover, #middle #middle-column #bar-buttons #i-am-feeling-lucky:hover {
+  border: 1px solid #c0c0c0;
+  border-radius: 3px;
+}
+#middle #middle-column #bar-buttons #google-search:active, #middle #middle-column #bar-buttons #i-am-feeling-lucky:active {
+  border: 1px solid #4285f4;
+  border-radius: 3px;
+}
+
+/*# sourceMappingURL=google-style-main.css.map */
