@@ -1,0 +1,6 @@
+1. check out:
+     a. String methods 
+     aa. Find out about the methods of other data types 
+     b. builtin functions 
+     c: format options in f string
+     
