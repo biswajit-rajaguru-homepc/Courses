@@ -1,0 +1,16 @@
+git clone https://github.com/username/repositoryname.git
+git add file name
+gt add .
+ git add --all
+ git commit -a(all chabges)m(message) " message "
+ git add boths tracks and stages the file.
+ git commit commits the staged files, it is like changing the repository.
+ a file might be tracked, but not staged. this is useful f you donot want to commit a tracked file in its present state.
+ git commt -a both stages all tracked files and commits them.
+ for common use,
+
+1. if you to update sync your local file system with repo, then add . -A , then commit -am
+2. if you want to only stage a particular file, add <file> assuming the file is aldready being tracked.
+then git commit. btw git commit does need a list of files. it just commits what has been staged.
+
+git pull will sync my state with repo state in github
