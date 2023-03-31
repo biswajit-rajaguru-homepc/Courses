@@ -15,3 +15,4 @@ then git commit. btw git commit does need a list of files. it just commits what 
 
 git pull will sync my state with repo state in :local: github
 git config --global pull.rebase false
+:from remote:
