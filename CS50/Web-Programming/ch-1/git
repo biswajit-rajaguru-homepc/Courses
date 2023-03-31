@@ -14,3 +14,4 @@ gt add .
 then git commit. btw git commit does need a list of files. it just commits what has been staged.
 
 git pull will sync my state with repo state in :local: github
+git config --global pull.rebase false
